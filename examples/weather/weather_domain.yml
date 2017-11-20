@@ -1,0 +1,45 @@
+slots:
+  dia_diem :
+    type: text
+  buoi :
+    type: text
+  ngay :
+    type: text
+
+intents:
+ - chao_hoi
+ - hoi_thoi_tiet
+ - tam_biet
+
+entities:
+ - dia_diem
+ - buoi
+ - ngay
+
+
+templates:
+  utter_chao_lai:
+    - "em chào anh"
+    - "xin chào"
+  utter_de_nghi:
+    - "em có thể giúp gì cho anh"
+    - "anh muốn biết thông tin về thời tiết ạ"
+  utter_hoi_dia_diem:
+    - "anh hỏi thời tiết ở đâu"
+  utter_hoi_buoi:
+    - "anh hỏi thời tiết khi nào trong ngày?"
+  utter_hoi_ngay:
+    - "anh muốn biết thời tiết ngày nào?"
+  utter_tam_biet:
+    - "vĩnh biệt anh"
+    - "đã ra đi xin đừng ngoảnh mặt"
+
+actions:
+  - utter_chao_lai
+  - utter_de_nghi
+  - utter_hoi_dia_diem
+  - utter_hoi_buoi
+  - utter_hoi_ngay
+  - utter_tam_biet
+  - bot.ActionSearchWeather
+  - bot.ActionSuggest

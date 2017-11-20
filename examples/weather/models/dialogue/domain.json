@@ -1,0 +1,23 @@
+{
+  "features": [
+    "intent_chao_hoi",
+    "intent_hoi_thoi_tiet",
+    "intent_tam_biet",
+    "entity_dia_diem",
+    "entity_buoi",
+    "entity_ngay",
+    "slot_buoi_0",
+    "slot_dia_diem_0",
+    "slot_ngay_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_utter_chao_lai",
+    "prev_utter_de_nghi",
+    "prev_utter_hoi_dia_diem",
+    "prev_utter_hoi_buoi",
+    "prev_utter_hoi_ngay",
+    "prev_utter_tam_biet",
+    "prev_action_search_weather",
+    "prev_action_suggest"
+  ]
+}

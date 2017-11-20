@@ -1,0 +1,44 @@
+action_factory: null
+actions:
+- utter_chao_lai
+- utter_de_nghi
+- utter_hoi_dia_diem
+- utter_hoi_buoi
+- utter_hoi_ngay
+- utter_tam_biet
+- bot.ActionSearchWeather
+- bot.ActionSuggest
+config:
+  store_entities_as_slots: true
+entities:
+- dia_diem
+- buoi
+- ngay
+intents:
+- chao_hoi
+- hoi_thoi_tiet
+- tam_biet
+slots:
+  buoi:
+    type: text
+  dia_diem:
+    type: text
+  ngay:
+    type: text
+templates:
+  utter_chao_lai:
+  - text: em chào anh
+  - text: xin chào
+  utter_de_nghi:
+  - text: em có thể giúp gì cho anh
+  - text: anh muốn biết thông tin về thời tiết ạ
+  utter_hoi_buoi:
+  - text: anh hỏi thời tiết khi nào trong ngày?
+  utter_hoi_dia_diem:
+  - text: anh hỏi thời tiết ở đâu
+  utter_hoi_ngay:
+  - text: anh muốn biết thời tiết ngày nào?
+  utter_tam_biet:
+  - text: vĩnh biệt anh
+  - text: đã ra đi xin đừng ngoảnh mặt
+topics: []

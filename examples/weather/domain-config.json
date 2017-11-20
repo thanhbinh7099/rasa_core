@@ -1,0 +1,12 @@
+{
+  "pipeline": [
+    "nlp_mitie",
+    "tokenizer_mitie",
+    "ner_mitie",
+    "ner_synonyms",
+    "intent_classifier_mitie"
+  ],
+  "mitie_file": "/home/ntbinh/PycharmProjects/Misa_Rasa_Core_/rasa_core/examples/mybot/total_word_feature_extractor_20k.dat"
+}
+
+
